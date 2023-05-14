@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Regular";
+  src: url("../../fonts/PPNeueMachina-InktrapRegular.otf");
+}
+
+.navbar {
+  font-family: Regular;
+}
+
+.navbar-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 16px 24px;
+
+}
+
+.link:hover {
+  color: black;
+  background-color: #e2ff00;
+  transition: 0.5s;
+}
+
+.menu-icon {
+  display: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-block:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+    align-items: right;
+    justify-self: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    background-color: black;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .link {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding: 16px;
+    padding-right: 10%;
+  }
+}
