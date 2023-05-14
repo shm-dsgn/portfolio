@@ -26,9 +26,9 @@ function Navbar() {
         </NavLink>
         <div className="menu-icon" onClick={handleShowNavbar}>
           {!showMenu ? (
-            <List size={24} color="white" weight="bold" />
+            <List size={28} color="white" weight="bold" />
           ) : (
-            <X size={24} color="#E2FF00" weight="bold" />
+            <X size={28} color="#E2FF00" weight="bold" />
           )}
         </div>
         <div className={`nav-links ${showNavbar && "active"}`}>
