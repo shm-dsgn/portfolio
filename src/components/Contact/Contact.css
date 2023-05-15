@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+.contact-block {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.blur {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 512px;
+  background-color: black;
+  border-radius: 32px;
+  padding: 64px;
+}
+
+.y-blur {
+  position: absolute;
+  right: 10%;
+  bottom: -20%;
+  background-color: #e2ff00;
+  width: 128px;
+  height: 128px;
+  filter: blur(100px);
+}
+
+.w-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 128px;
+  height: 128px;
+  filter: blur(100px);
+}
+
+.contact-details {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: Ultrabold;
+}
+
+p {
+  font-family: Regular;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.email {
+  padding-top: 16px;
+}
+
+.social-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+
+.contact-me {
+  width: 156px;
+  height: 64px;
+  background-color: #e2ff00;
+  border-radius: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Regular;
+  color: black;
+  margin-right: 16px;
+}
+
+.contact-me-block,
+.social-icons-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+
+}
+
+.contact-me:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  border: solid white 1px;
+}
+
+.linkedin,
+.github,
+.dribbble {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-right: 16px;
+}
+
+.linkedin :hover {
+  color: #0077b5;
+  transition: 0.3s;
+}
+
+.github :hover {
+  color: #333333;
+  transition: 0.3s;
+}
+
+.dribbble :hover {
+  color: #ea4c89;
+  transition: 0.3s;
+}
+
+@media (max-width: 700px) {
+  .blur {
+    padding: 28px;
+  }
+
+  .contact-me {
+    width: 220px;
+  }
+
+  .social-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-icons-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

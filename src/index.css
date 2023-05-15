@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Regular";
+  src: url("../src/fonts/PPNeueMachina-InktrapRegular.otf");
+}
+
+@font-face {
+  font-family: "Ultrabold";
+  src: url("../src/fonts/PPNeueMachina-InktrapUltrabold.otf");
+}
