@@ -9,13 +9,14 @@ function Projects() {
       <h1 id="heading">My Projects</h1>
       <div className="project-display-block">
         {ProjectDetails.map(
-          ({ title, content, githubLink, liveLink, photo }) => (
+          ({ title, content, githubLink, liveLink, photo, tags }) => (
             <Display
               title={title}
               content={content}
               githubLink={githubLink}
               liveLink={liveLink}
               photo={photo}
+              tags={tags}
             />
           )
         )}

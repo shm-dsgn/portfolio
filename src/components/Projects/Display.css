@@ -3,7 +3,7 @@
   border: solid #121212 2px;
   border-radius: 16px;
   margin: 8px;
-  height: 450px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -70,4 +70,22 @@
   transition: 0.3s;
   color: #e2ff00;
   border: #e2ff00 solid 1px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+}
+
+.tag {
+  background-color: #1C1C1C;
+  color: grey;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 4px;
+  font-family: Regular;
+  font-size: 12px;
 }

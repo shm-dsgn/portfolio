@@ -1,11 +1,16 @@
 import React from "react";
 import "./Display.css";
 
-const Display = ({ title, content, githubLink, liveLink, photo }) => {
+const Display = ({ title, content, githubLink, liveLink, photo, tags }) => {
   return (
     <div className="display-box">
       <div className="display-image">
-        <img src={photo} className="img" />
+        <img src={photo} className="img" alt="projectImage"/>
+      </div>
+      <div className="tags">
+        {tags.map((tag) => (
+          <span className="tag">{tag}</span>
+        ))}
       </div>
       <div className="display-details">
         <div className="display-title">{title}</div>
@@ -19,6 +24,7 @@ const Display = ({ title, content, githubLink, liveLink, photo }) => {
           </a>
         </div>
       </div>
+      
     </div>
   );
 };
