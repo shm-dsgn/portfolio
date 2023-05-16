@@ -1,0 +1,27 @@
+#heading {
+  font-family: Ultrabold;
+  color: white;
+}
+
+.project-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 32px;
+  margin-top: 32px;
+}
+
+.project-display-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+    .project-display-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

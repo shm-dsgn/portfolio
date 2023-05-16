@@ -22,3 +22,40 @@ code {
   font-family: "Ultrabold";
   src: url("../src/fonts/PPNeueMachina-InktrapUltrabold.otf");
 }
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FFFFFF #000000;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #E2FF00;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #E2FF00;
+}

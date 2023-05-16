@@ -41,6 +41,14 @@ function Navbar() {
           <NavLink to="/contact" style={navLinkStyles}>
             <div className="contact link">Contact</div>
           </NavLink>
+          <a
+            className="resume link"
+            href="https://drive.google.com/file/d/1-1-9ht1R1086T9KF3m0Ooy4swHL-NFPv/view?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume/CV
+          </a>
         </div>
       </nav>
     </div>

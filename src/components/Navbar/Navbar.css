@@ -28,10 +28,15 @@
   color: black;
   background-color: #e2ff00;
   transition: 0.5s;
+  border-radius: 8px;
 }
 
 .menu-icon {
   display: none;
+}
+
+.resume {
+  color: white;
 }
 
 nav a {
@@ -43,7 +48,7 @@ nav a {
   cursor: pointer;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .menu-icon {
     display: block;
     cursor: pointer;
