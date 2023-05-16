@@ -73,4 +73,8 @@ nav a {
     padding: 16px;
     padding-right: 10%;
   }
+
+  .App-logo {
+    width: 65%;
+  }
 }

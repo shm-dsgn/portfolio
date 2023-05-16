@@ -10,7 +10,7 @@ function Contact() {
         <div className="w-blur"></div>
         <div className="contact-details">
           <div className="text-details">
-            <h1>Want to work together ? Or have any queries</h1>
+            <h1>Want to work together ? Or have any queries?</h1>
             <p>
               Feel free to reach out for collaborations or just a friendly
               hello.
@@ -37,34 +37,34 @@ function Contact() {
             </div>
 
             <div className="social-icons-block">
-            <a
-              href="https://www.linkedin.com/in/shm-dsgn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="linkedin">
-                <LinkedinLogo size={32} weight="fill" />
-              </div>
-            </a>
+              <a
+                href="https://www.linkedin.com/in/shm-dsgn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="linkedin">
+                  <LinkedinLogo size={32} weight="fill" />
+                </div>
+              </a>
 
-            <a
-              href="https://github.com/shm-dsgn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="github">
-                <GithubLogo size={32} weight="fill" />
-              </div>
-            </a>
-            <a
-              href="https://dribbble.com/shm_dsgn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="dribbble">
-                <DribbbleLogo size={32} weight="fill" />
-              </div>
-            </a>
+              <a
+                href="https://github.com/shm-dsgn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="github">
+                  <GithubLogo size={32} weight="fill" />
+                </div>
+              </a>
+              <a
+                href="https://dribbble.com/shm_dsgn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="dribbble">
+                  <DribbbleLogo size={32} weight="fill" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
