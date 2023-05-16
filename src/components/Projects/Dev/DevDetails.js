@@ -1,8 +1,8 @@
-import Img1 from "../../assets/bg.png";
-import Img2 from "../../assets/ytpd.png";
-import Img3 from "../../assets/pt.png";
+import Img1 from "../../../assets/bg.png";
+import Img2 from "../../../assets/ytpd.png";
+import Img3 from "../../../assets/pt.png";
 
-export const ProjectDetails = [
+export const DevDetails = [
   {
     title: "Brain Games",
     content:

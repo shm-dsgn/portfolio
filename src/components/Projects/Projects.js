@@ -1,14 +1,14 @@
 import React from "react";
 import "./Projects.css";
-import { ProjectDetails } from "./ProjectDetails.js";
-import Display from "./Display.js";
+import { DevDetails } from "./Dev/DevDetails.js";
+import Display from "./Dev/Display.js";
 
 function Projects() {
   return (
     <div className="project-block">
       <h1 id="heading">My Projects</h1>
       <div className="project-display-block">
-        {ProjectDetails.map(
+        {DevDetails.map(
           ({ title, content, githubLink, liveLink, photo, tags }) => (
             <Display
               title={title}
