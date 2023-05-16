@@ -10,7 +10,13 @@ export const DevDetails = [
     githubLink: "https://github.com/shm-dsgn/brain-games",
     liveLink: "https://shm-brain-games.netlify.app/",
     photo: Img1,
-    tags: ["reactjs", "firebase-auth", "firestore", "react-router", "react-hooks"],
+    tags: [
+      "reactjs",
+      "react-router",
+      "react-hooks",
+      "firebase-auth",
+      "firestore",
+    ],
   },
   {
     title: "YT Playlist Duration Calculator",
@@ -20,13 +26,7 @@ export const DevDetails = [
     liveLink:
       "https://chrome.google.com/webstore/detail/youtube-playlist-duration/bpojpijaddmjkblcbkhnhhgjecmfmgil",
     photo: Img2,
-    tags: [
-      "chrome",
-      "youtube-playlist",
-      "javascript",
-      "manifestv3",
-      "extension",
-    ],
+    tags: ["chrome-extension", "youtube-playlist", "javascript", "manifestv3"],
   },
   {
     title: "My Portfolio Website",
