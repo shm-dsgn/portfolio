@@ -1,5 +1,5 @@
 import React from "react";
-import "./Display.css";
+import "./DevDisplay.css";
 
 const Display = ({ title, content, githubLink, liveLink, photo, tags }) => {
   return (
