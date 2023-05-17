@@ -13,6 +13,11 @@ function Navbar() {
     setShowMenu(!showMenu);
   };
 
+  const closeNavBar = () => {
+    setShowNavbar(!showNavbar);
+    setShowMenu(!showMenu);
+  };
+
   const navLinkStyles = ({ isActive }) => {
     return {
       color: isActive ? "#E2FF00" : "white",
@@ -33,16 +38,24 @@ function Navbar() {
         </div>
         <div className={`nav-links ${showNavbar && "active"}`}>
           <NavLink to="/">
-            <div className="link">Home</div>
+            <div className="link" onClick={closeNavBar}>
+              Home
+            </div>
           </NavLink>
           <NavLink to="/about" style={navLinkStyles}>
-            <div className="link">About</div>
+            <div className="link" onClick={closeNavBar}>
+              About
+            </div>
           </NavLink>
           <NavLink to="/projects" style={navLinkStyles}>
-            <div className="link">Projects</div>
+            <div className="link" onClick={closeNavBar}>
+              Projects
+            </div>
           </NavLink>
           <NavLink to="/contact" style={navLinkStyles}>
-            <div className="link">Contact</div>
+            <div className="link" onClick={closeNavBar}>
+              Contact
+            </div>
           </NavLink>
           <a
             className="resume link"
@@ -50,7 +63,8 @@ function Navbar() {
             target="_blank"
             rel="noreferrer"
           >
-            Resume/CV &nbsp;<DownloadSimple weight="bold" size={16}/>
+            Resume/CV &nbsp;
+            <DownloadSimple weight="bold" size={16} />
           </a>
         </div>
       </nav>
