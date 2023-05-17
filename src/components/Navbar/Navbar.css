@@ -2,6 +2,10 @@
 
 .navbar {
   font-family: Regular;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.871);;
+  position:sticky;
+  padding: 8px;
 }
 
 .navbar-block {
@@ -65,10 +69,10 @@ nav a {
     flex-direction: column;
     position: absolute;
     left: 0px;
-    top: 90px;
+    top: 49px;
     background-color: rgba(0, 0, 0, 0.871);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 2;
   }
 
