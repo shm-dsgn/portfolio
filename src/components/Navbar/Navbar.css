@@ -6,6 +6,7 @@
   background-color: rgba(0, 0, 0, 0.871);;
   position:sticky;
   padding: 8px;
+  z-index: 1000;
 }
 
 .navbar-block {
