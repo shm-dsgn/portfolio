@@ -34,13 +34,13 @@
 
 .display-shots {
   border-radius: 8px;
-  background-color: white;
-  color: black;
+  background-color: #212121;
+  color: white;
   border: none;
   padding: 16px;
   font-family: Regular;
   width: 100%;
-  border: white solid 1px;
+  border: #212121 solid 1px;
 }
 
 .display-shots:hover {
