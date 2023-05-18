@@ -23,6 +23,16 @@ code {
   src: url("../src/fonts/PPNeueMachina-InktrapUltrabold.otf");
 }
 
+@font-face {
+  font-family: "RegularItalics";
+  src: url("../src/fonts/PPNeueMachina-InktrapRegularItalic.otf");
+}
+
+@font-face {
+  font-family: "UltraboldItalics";
+  src: url("../src/fonts/PPNeueMachina-InktrapUltraboldItalic.otf");
+}
+
 /* Firefox */
 * {
   scrollbar-width: thin;

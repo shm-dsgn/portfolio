@@ -1,1 +1,100 @@
+:root {
+  --yellow: #e2ff00;
+  --white: #f7ffbc;
 
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+.magic-text {
+  animation: background-pan 2s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--yellow),
+    var(--white),
+    var(--yellow)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  width: 100%;
+  /* background-color: red; */
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  padding: 64px 64px 32px 64px;
+  font-size: 108px;
+  color: white;
+  font-family: Ultrabold;
+}
+
+.hero-sub-text {
+  color: white;
+  font-size: 24px;
+  padding: 8px;
+}
+
+.name {
+  font-family: RegularItalics;
+
+}
+
+.role {
+  font-family: UltraboldItalics;
+  color: #e2ff00;
+  opacity: 0.8;
+}
+
+.location {
+  font-family: RegularItalics;
+}
+
+.scroll-text {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  color: grey;
+}
+
+.scroll-text > p {
+  font-size: 14px;
+}
+
+/* .home-details {
+  background-color: red;
+  width: 100%;
+  height: 90px;
+} */
+
+@media (max-width: 800px) {
+  .hero-text {
+    margin-top: 16px;
+    font-size: 60px;
+    padding: 16px;
+  }
+}
