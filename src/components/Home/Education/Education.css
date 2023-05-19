@@ -1,0 +1,39 @@
+.education {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  font-family: Regular;
+}
+
+.edu-details {
+  padding: 16px;
+  margin: 16px 8px;
+  border: solid #121212 2px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.edu-icon {
+  margin: 16px;
+}
+
+.edu-location,
+.edu-time {
+  font-family: RegularItalics;
+  color: grey;
+  font-size: 14px;
+  margin: 8px 0px 16px 0px;
+}
+
+@media (max-width: 800px) {
+  .education {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .edu-details {
+    margin: 16px 0px;
+  }
+}

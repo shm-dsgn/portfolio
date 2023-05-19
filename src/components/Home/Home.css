@@ -1,7 +1,6 @@
 :root {
   --yellow: #e2ff00;
   --white: #f7ffbc;
-
 }
 
 @keyframes background-pan {
@@ -26,6 +25,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
+  font-family: UltraboldItalics;
 }
 
 .homepage {
@@ -58,26 +58,22 @@
   padding: 8px;
 }
 
-.name {
+.name,
+.location {
   font-family: RegularItalics;
-
 }
 
 .role {
   font-family: UltraboldItalics;
-  color: #e2ff00;
+  color: var(--yellow);
   opacity: 0.8;
-}
-
-.location {
-  font-family: RegularItalics;
 }
 
 .scroll-text {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   color: grey;
 }
 
@@ -85,16 +81,31 @@
   font-size: 14px;
 }
 
-/* .home-details {
-  background-color: red;
+.about-me,
+.skills-block,
+.education-block {
+  /* background-color: red; */
+  margin-top: 64px;
   width: 100%;
-  height: 90px;
-} */
+  padding: 16px;
+}
+
+.about-me > p {
+  font-size: 20px;
+  color: white;
+  font-family: Regular;
+}
+
+#heading {
+  font-family: Ultrabold;
+  color: white;
+}
 
 @media (max-width: 800px) {
   .hero-text {
     margin-top: 16px;
-    font-size: 60px;
+    font-size: 52px;
     padding: 16px;
+    margin: 16px;
   }
 }

@@ -37,14 +37,9 @@ function Navbar() {
           )}
         </div>
         <div className={`nav-links ${showNavbar && "active"}`}>
-          <NavLink to="/">
+          <NavLink to="/" style={navLinkStyles}>
             <div className="link" onClick={closeNavBar}>
               Home
-            </div>
-          </NavLink>
-          <NavLink to="/about" style={navLinkStyles}>
-            <div className="link" onClick={closeNavBar}>
-              About
             </div>
           </NavLink>
           <NavLink to="/projects" style={navLinkStyles}>
