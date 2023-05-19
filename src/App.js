@@ -24,10 +24,9 @@ function handleMouseMove(e) {
 function App() {
   return (
     <div className="App" onMouseMove={(e) => handleMouseMove(e)}>
-      
-      <Navbar />
-      <div className="cursor"></div>
       <div className="w-blur"></div>
+      <div className="cursor"></div>
+      <Navbar />
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<Home />} />
