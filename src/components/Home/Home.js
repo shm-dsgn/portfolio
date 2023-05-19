@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import { MouseSimple } from "@phosphor-icons/react";
 import Education from "./Education/Education";
+import Skills from "./Skills/Skills";
 
 function Home() {
   return (
@@ -28,9 +29,9 @@ function Home() {
         </div>
       </div>
       <div className="about-me">
-        <h1 id="heading">The Saga of Yours Truly 🙋‍♂️</h1>
+        <h1 id="heading">The Prologue 🙋‍♂️</h1>
         <p>
-          I'm Soham, a self-taught frontend web developer and user inetrface &
+          I'm Soham, a frontend web developer and self-taught user inetrface &
           experience (UI/UX) designer. <br />
           <br />
           With a strong passion for creating visually appealing and
@@ -44,15 +45,15 @@ function Home() {
         </p>
       </div>
       <div className="skills-block">
-        <h1 id="heading">Superpowers I wield 💪💻</h1>
-        <div className="skillset"></div>
+        <h1 id="heading">Superpowers 💻</h1>
+        <Skills />
       </div>
       <div className="experience-block">
-        <h1 id="heading">Experince</h1>
+        <h1 id="heading">Adventures ⚒️</h1>
         <div className="experience"></div>
       </div>
       <div className="education-block">
-        <h1 id="heading">Enlightenment Achievements 🎒🎓</h1>
+        <h1 id="heading">Enlightenment 🎓</h1>
         <Education />
       </div>
     </div>

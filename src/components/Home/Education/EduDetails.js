@@ -6,8 +6,8 @@ export const EduDetails = [
     name: "Kalinga Institute of Industrial Technology",
     location:"Bhubaneswar, Odisha",
     degree: "B.Tech in Computer Science & Engineering",
-    time: "2020 - 2024",
-    score: "CGPA: 9.4/10",
+    time: "2020 - 2024 (currently pursuing)",
+    score: "CGPA: 9.4/10 (upto 5th semester)",
   },
   {
     icon: <Backpack color="white" size={32}/>,

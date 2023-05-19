@@ -1,3 +1,41 @@
 .App {
-    margin: 32px 5%;
+  padding: 32px 5%;
 }
+
+.w-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 128px;
+  height: 128px;
+  filter: blur(100px);
+  z-index: 9999999999;
+}
+
+.cursor {
+  z-index: 9999999;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 500ms ease;
+  mix-blend-mode: exclusion;
+}
+
+.App:hover > .cursor {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}
+  

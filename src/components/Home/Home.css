@@ -36,9 +36,10 @@
 }
 
 .home {
+
   width: 100%;
+  height: 100%;
   /* background-color: red; */
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -83,9 +84,9 @@
 
 .about-me,
 .skills-block,
-.education-block {
-  /* background-color: red; */
-  margin-top: 64px;
+.education-block,
+.experience-block {
+  margin-top: 32px;
   width: 100%;
   padding: 16px;
 }
@@ -98,7 +99,7 @@
 
 #heading {
   font-family: Ultrabold;
-  color: white;
+  color: #e2ff00;
 }
 
 @media (max-width: 800px) {

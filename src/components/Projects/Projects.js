@@ -8,7 +8,8 @@ import DesignDisplay from "./Design/DesignDisplay.js";
 function Projects() {
   return (
     <div className="project-block">
-      <h1 id="heading">My Projects</h1>
+      <h1 id="project-heading">Code Magic 🧑‍💻</h1>
+      <h2 id="project-subheading">Here are some of my development work</h2>
       <div className="project-display-block">
         {DevDetails.map(
           ({ title, content, githubLink, liveLink, photo, tags }) => (
@@ -24,7 +25,8 @@ function Projects() {
         )}
       </div>
       <br/><br/>
-      <h1 id="heading">My Designs</h1>
+      <h1 id="project-heading">Pixel Magic 🎨</h1>
+      <h2 id="project-subheading">Here are some of my design work</h2>
       <div className="design-display-block">
         {DesignDetails.map(
           ({ title, content, dribbbleLink, photo, tags }) => (

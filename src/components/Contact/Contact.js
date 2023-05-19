@@ -6,8 +6,7 @@ function Contact() {
   return (
     <div className="contact-block">
       <div className="blur">
-        <div className="y-blur"></div>
-        <div className="w-blur"></div>
+
         <div className="contact-details">
           <div className="text-details">
             <h1>Want to work together ? Or have any queries?</h1>
