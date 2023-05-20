@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div className="project-block">
       <h1 id="project-heading">Code Magic 🧑‍💻</h1>
-      <h2 id="project-subheading">Here are some of my development work</h2>
+      <h2 id="project-subheading">Here are some of my dev. work</h2>
       <div className="project-display-block">
         {DevDetails.map(
           ({ title, content, githubLink, liveLink, photo, tags }) => (

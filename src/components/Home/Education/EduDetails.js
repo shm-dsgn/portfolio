@@ -1,4 +1,4 @@
-import {Backpack, GraduationCap} from "@phosphor-icons/react";
+import { GraduationCap} from "@phosphor-icons/react";
 
 export const EduDetails = [
   {
@@ -9,12 +9,12 @@ export const EduDetails = [
     time: "2020 - 2024 (currently pursuing)",
     score: "CGPA: 9.4/10 (upto 5th semester)",
   },
-  {
-    icon: <Backpack color="white" size={32}/>,
-    name: "Bholananda National Vidyalaya",
-    location:"Barrackpore, West Bengal",
-    degree: "Class XII (CBSE)",
-    time: "2018 - 2020",
-    score: "Percentage: 91%",
-  },
+  // {
+  //   icon: <Backpack color="white" size={32}/>,
+  //   name: "Bholananda National Vidyalaya",
+  //   location:"Barrackpore, West Bengal",
+  //   degree: "Class XII (CBSE)",
+  //   time: "2018 - 2020",
+  //   score: "Percentage: 91%",
+  // },
 ];

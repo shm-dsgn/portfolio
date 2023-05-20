@@ -20,13 +20,13 @@ function Skills() {
     "React Router",
     "Tailwind CSS",
     "FireBase",
-    "MySQL",
-    "Jupyter Notebook",
-    "Visual Studio Code",
-    "APIs",
     "Node.js",
+    "MySQL",
+    "APIs",
     "Express",
     "Git",
+    "Jupyter Notebook",
+    "Visual Studio Code",
   ];  
   
   const others = [
