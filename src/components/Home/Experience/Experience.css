@@ -1,0 +1,39 @@
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  font-family: Regular;
+}
+
+.exp-details {
+  padding: 16px;
+  margin: 16px 8px;
+  border: solid #1a1a1a 2px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exp-title {
+    font-family: Ultrabold;
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+.exp-location,
+.exp-time {
+  font-family: RegularItalics;
+  color: grey;
+  font-size: 14px;
+  margin: 8px 0px 32px 0px;
+}
+
+@media (max-width: 800px) {
+  .exp-details,
+  .experience {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0px;
+  }
+}

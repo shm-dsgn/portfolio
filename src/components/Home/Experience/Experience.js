@@ -1,14 +1,19 @@
 import React from "react";
 import "./Experience.css";
-import { ExpDetails } from "./EduDetails";
+import { ExpDetails } from "./ExpDetails";
 
-function Education() {
+function Experience() {
   return (
-    <div className="education">
+    <div className="experience">
       {ExpDetails.map((exp) => {
         return (
-          <div>
-
+          <div className="exp-details">
+              <div className="exp-title">{exp.title}</div>
+              <div className="exp-name">{exp.name}</div>
+              <div className="exp-location">{exp.location}</div>
+              <div className="exp-degree">{exp.exptype}</div>
+              <div className="exp-time">{exp.duration}</div>
+              <div className="exp-score">{exp.description}</div>
           </div>
         );
       })}
@@ -16,4 +21,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Experience;

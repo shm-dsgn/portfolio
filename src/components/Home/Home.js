@@ -3,6 +3,7 @@ import "./Home.css";
 import { MouseSimple } from "@phosphor-icons/react";
 import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
+import Experience from "./Experience/Experience";
 
 function Home() {
   return (
@@ -52,8 +53,8 @@ function Home() {
         <Skills />
       </div>
       <div className="experience-block">
-        <h1 id="heading">Adventures ⚒️</h1>
-        <div className="experience"></div>
+        <h1 id="heading">Adventures ⚒️<span >looking for more :)</span></h1>
+        <Experience/>
       </div>
       <div className="education-block">
         <h1 id="heading">Enlightenment 🎓</h1>

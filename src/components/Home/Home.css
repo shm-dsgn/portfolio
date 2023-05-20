@@ -91,6 +91,11 @@
   padding: 16px;
 }
 
+.experience-block > #heading > span {
+  font-family: Regular;
+  font-size: 16px;
+}
+
 .about-me > p {
   font-size: 20px;
   color: white;
