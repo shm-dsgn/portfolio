@@ -42,17 +42,9 @@ function Home() {
           I'm Soham, a frontend web developer and self-taught user interface &
           experience (UI/UX) designer. <br />
           <br />
-          With a strong passion for creating visually appealing and
-          user-friendly digital experiences, I specialize in HTML, CSS,
-          JavaScript, and frontend frameworks like ReactJS. <br />
-          <br />
-          I am also interested towards AI, Machine learning and Deep Learning.
-          <br />
+          I specialize in HTML, CSS, JavaScript, and frontend frameworks like ReactJS. I am also interested towards AI, Machine learning and Deep Learning.<br />
           <br />I thrive on finding innovative solutions and bringing ideas to
-          life. <br />
-          <br />
-          Let's collaborate and create exceptional and beautiful websites that
-          leave a lasting impression :)
+          life.
         </p>
       </div>
       <div className="skills-block" data-aos="fade">

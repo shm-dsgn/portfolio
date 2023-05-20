@@ -1,6 +1,6 @@
 .display-box {
   color: white;
-  border: solid #121212 2px;
+  border: solid #252525 2px;
   border-radius: 16px;
   margin: 8px;
   height: auto;
@@ -43,7 +43,7 @@
 
 .display-github {
   border-radius: 8px;
-  background-color: black;
+  background-color: #101010;
   color: white;
   border: none;
   border: white solid 1px;
@@ -52,7 +52,7 @@
 .display-github:hover {
   cursor: pointer;
   background-color: white;
-  color: black;
+  color: #101010;
   transition: 0.3s;
   border: white solid 1px;
 }
@@ -66,7 +66,7 @@
 
 .display-live:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: #101010;
   transition: 0.3s;
   color: #e2ff00;
   border: #e2ff00 solid 1px;

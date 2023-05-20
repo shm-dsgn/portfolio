@@ -1,6 +1,6 @@
 .display-box {
   color: white;
-  border: solid #121212 2px;
+  border: solid #252525 2px;
   border-radius: 16px;
   margin: 8px;
   height: auto;
@@ -34,18 +34,18 @@
 
 .display-shots {
   border-radius: 8px;
-  background-color: #212121;
+  background-color: #252525;
   color: white;
   border: none;
   padding: 16px;
   font-family: Regular;
   width: 100%;
-  border: #212121 solid 1px;
+  border: #252525 solid 1px;
 }
 
 .display-shots:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: #101010;
   color: white;
   transition: 0.3s;
   border: white solid 1px;

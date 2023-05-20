@@ -127,4 +127,17 @@ a {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .linkedin,
+  .github,
+  .dribbble {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contact-me {
+    width: 180px;
+    height: 48px;
+    font-size: 16px;
+  }
 }
