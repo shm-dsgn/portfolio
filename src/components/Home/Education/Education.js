@@ -5,9 +5,9 @@ import { EduDetails } from "./EduDetails";
 function Education() {
   return (
     <div className="education">
-      {EduDetails.map((edu) => {
+      {EduDetails.map((edu, i) => {
         return (
-          <div className="edu-details">
+          <div key={i} className="edu-details" data-aos="fade">
             <div className="edu-icon">{edu.icon}</div>
             <div className="edu-info">
               <div className="edu-name">{edu.name}</div>

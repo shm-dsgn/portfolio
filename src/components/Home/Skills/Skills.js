@@ -39,29 +39,29 @@ function Skills() {
 
   return (
     <div className="skillset">
-      <div className="skill">
+      <div className="skill" data-aos="fade">
         <h2 className="skill-header">Languages</h2>
         <div className="skill-list">
-          {languages.map((language) => (
-            <span className="skill-tag">{language}</span>
+          {languages.map((language, i) => (
+            <span key={i} className="skill-tag">{language}</span>
           ))}
         </div>
       </div>
 
-      <div className="skill">
+      <div className="skill" data-aos="fade">
         <h2 className="skill-header">Frameworks And Tools</h2>
         <div className="skill-list">
-          {frameworksAndTools.map((fat) => (
-            <span className="skill-tag">{fat}</span>
+          {frameworksAndTools.map((fat, i) => (
+            <span key={i} className="skill-tag">{fat}</span>
           ))}
         </div>
       </div>
 
-      <div className="skill">
+      <div className="skill" data-aos="fade">
         <h2 className="skill-header">Others</h2>
         <div className="skill-list">
-          {others.map((other) => (
-            <span className="skill-tag">{other}</span>
+          {others.map((other, i) => (
+            <span key={i} className="skill-tag">{other}</span>
           ))}
         </div>
       </div>

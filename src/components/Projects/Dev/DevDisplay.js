@@ -3,7 +3,7 @@ import "./DevDisplay.css";
 
 const Display = ({ title, content, githubLink, liveLink, photo, tags }) => {
   return (
-    <div className="display-box">
+    <div className="display-box" data-aos="fade">
       <div className="display-image">
         <img src={photo} className="img" alt="projectImage"/>
       </div>

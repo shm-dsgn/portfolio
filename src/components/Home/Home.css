@@ -107,6 +107,15 @@
   color: #e2ff00;
 }
 
+/* .hidden{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+} */
+
 @media (max-width: 800px) {
   .hero-text {
     margin-top: 16px;
