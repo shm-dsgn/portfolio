@@ -18,7 +18,7 @@ function Home() {
             Hi, I'm <span className="name">Soham Dutta</span>, a
             <span className="role">
               {" "}
-              Frontend Developer and User Experience designer{" "}
+              Frontend Developer and UI/UX designer{" "}
             </span>
             based in <span className="location">Kolkata, IN</span>.
           </p>
@@ -31,7 +31,7 @@ function Home() {
       <div className="about-me">
         <h1 id="heading">The Prologue 🙋‍♂️</h1>
         <p>
-          I'm Soham, a frontend web developer and self-taught user inetrface &
+          I'm Soham, a frontend web developer and self-taught user interface &
           experience (UI/UX) designer. <br />
           <br />
           With a strong passion for creating visually appealing and

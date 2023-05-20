@@ -56,7 +56,7 @@ function Contact() {
                 </div>
               </a>
               <a
-                href="https://dribbble.com/shm_dsgn"
+                href="https://dribbble.com/shm-dsgn"
                 target="_blank"
                 rel="noreferrer"
               >
