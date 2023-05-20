@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import "./Experience.css";
+import { ExpDetails } from "./EduDetails";
 
-function Experience() {
+function Education() {
   return (
-    <div>
-      
+    <div className="education">
+      {ExpDetails.map((exp) => {
+        return (
+          <div>
+
+          </div>
+        );
+      })}
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Education;

@@ -21,10 +21,13 @@ function handleMouseMove(e) {
   });
 }
 
+window.onload = function() {
+  console.log("loaded")  //example function call.
+}
+
 function App() {
   return (
     <div className="App" onMouseMove={(e) => handleMouseMove(e)}>
-      <div className="w-blur"></div>
       <div className="cursor"></div>
       <Navbar />
       <ScrollToTop>
