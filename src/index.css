@@ -20,21 +20,25 @@ code {
 @font-face {
   font-family: "Regular";
   src: url("../src/fonts/PPNeueMachina-InktrapRegular.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Ultrabold";
   src: url("../src/fonts/PPNeueMachina-InktrapUltrabold.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "RegularItalics";
   src: url("../src/fonts/PPNeueMachina-InktrapRegularItalic.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "UltraboldItalics";
   src: url("../src/fonts/PPNeueMachina-InktrapUltraboldItalic.otf");
+  font-display: swap;
 }
 
 /* Firefox */
