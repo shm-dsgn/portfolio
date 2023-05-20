@@ -21,7 +21,7 @@ function Home() {
           <span className="magic-text"> design</span> cool stuff for the
           <span className="magic-text"> web</span>.
         </div>
-        <div className="hero-sub-text" data-aos="fade">
+        <div className="hero-sub-text">
           <p>
             Hi, I'm <span className="name">Soham Dutta</span>, a
             <span className="role">
@@ -31,7 +31,7 @@ function Home() {
             based in <span className="location">Kolkata, IN</span>.
           </p>
         </div>
-        <div className="scroll-text" data-aos="fade">
+        <div className="scroll-text">
           <MouseSimple size={24} />
           <p>Scroll down to know more about me.</p>
         </div>
