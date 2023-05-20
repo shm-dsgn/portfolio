@@ -27,7 +27,7 @@ function Navbar() {
     <div className="navbar">
       <nav className="navbar-block">
         <NavLink to="/">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" width="128" height="41"/>
         </NavLink>
         <div className="menu-icon" onClick={handleShowNavbar}>
           {!showMenu ? (
