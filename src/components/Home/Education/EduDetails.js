@@ -2,7 +2,7 @@ import { GraduationCap} from "@phosphor-icons/react";
 
 export const EduDetails = [
   {
-    icon: <GraduationCap color="white" size={32}/>,
+    icon: <GraduationCap color="white" size={32} alt="graduation cap logo"/>,
     name: "Kalinga Institute of Industrial Technology",
     location:"Bhubaneswar, Odisha",
     degree: "B.Tech in Computer Science & Engineering",

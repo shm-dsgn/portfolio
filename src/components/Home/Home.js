@@ -32,7 +32,7 @@ function Home() {
           </p>
         </div>
         <div className="scroll-text">
-          <MouseSimple size={24} />
+          <MouseSimple size={24} alt="mouse logo"/>
           <p>Scroll down to know more about me.</p>
         </div>
       </div>

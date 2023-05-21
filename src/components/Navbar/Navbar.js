@@ -59,7 +59,7 @@ function Navbar() {
             rel="noreferrer"
           >
             Resume/CV &nbsp;
-            <DownloadSimple weight="bold" size={16} />
+            <DownloadSimple weight="bold" size={16} alt="download logo"/>
           </a>
         </div>
       </nav>
