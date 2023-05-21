@@ -43,7 +43,7 @@
 
 .display-github {
   border-radius: 8px;
-  background-color: #101010;
+  background-color: #181818;
   color: white;
   border: none;
   border: white solid 1px;
@@ -52,7 +52,7 @@
 .display-github:hover {
   cursor: pointer;
   background-color: white;
-  color: #101010;
+  color: #181818;
   transition: 0.3s;
   border: white solid 1px;
 }
@@ -66,7 +66,7 @@
 
 .display-live:hover {
   cursor: pointer;
-  background-color: #101010;
+  background-color: #181818;
   transition: 0.3s;
   color: #e2ff00;
   border: #e2ff00 solid 1px;
@@ -81,8 +81,8 @@
 }
 
 .tag {
-  background-color: #1C1C1C;
-  color: grey;
+  background-color: #121212;
+  color: #d7d7d7;
   border-radius: 16px;
   padding: 8px;
   margin: 4px;

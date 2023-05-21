@@ -7,25 +7,24 @@ import Contact from "./components/Contact/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 import Resume from "./components/Resume";
 
-function handleMouseMove(e) {
-  var cursor = document.querySelector(".cursor");
-  let x = e.clientX - cursor.offsetWidth / 2,
-    y = e.clientY - cursor.offsetHeight / 2;
+// function handleMouseMove(e) {
+//   var cursor = document.querySelector(".cursor");
+//   let x = e.clientX - cursor.offsetWidth / 2,
+//     y = e.clientY - cursor.offsetHeight / 2;
 
-  const keyframes = {
-    transform: `translate(${x}px, ${y}px)`,
-  };
+//   const keyframes = {
+//     transform: `translate(${x}px, ${y}px)`,
+//   };
 
-  cursor.animate(keyframes, {
-    duration: 800,
-    fill: "forwards",
-  });
-}
+//   cursor.animate(keyframes, {
+//     duration: 800,
+//     fill: "forwards",
+//   });
+// }
 
 function App() {
   return (
-    <div className="App" onMouseMove={(e) => handleMouseMove(e)}>
-      <div className="cursor"></div>
+    <div className="App">
       <Navbar />
       <ScrollToTop>
         <Routes>

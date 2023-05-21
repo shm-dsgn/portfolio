@@ -45,7 +45,7 @@
 
 .display-shots:hover {
   cursor: pointer;
-  background-color: #101010;
+  background-color: #181818;
   color: white;
   transition: 0.3s;
   border: white solid 1px;
@@ -60,8 +60,8 @@
 }
 
 .tag {
-  background-color: #1C1C1C;
-  color: grey;
+  background-color: #121212;
+  color: #d7d7d7;
   border-radius: 16px;
   padding: 8px;
   margin: 4px;
