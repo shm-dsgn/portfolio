@@ -14,7 +14,7 @@
   pointer-events: none;
   opacity: 0;
   transition: opacity 500ms ease;
-  mix-blend-mode: exclusion;
+  /* mix-blend-mode: exclusion; */
 }
 
 .App:hover > .cursor {
