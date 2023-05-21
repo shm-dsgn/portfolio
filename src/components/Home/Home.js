@@ -14,7 +14,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="homepage">
+    <div className="homepage" role="main">
       <div className="home">
         <div className="hero-text" data-aos="fade">
           I <span className="magic-text">code</span> and

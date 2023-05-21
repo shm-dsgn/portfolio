@@ -25,7 +25,7 @@ import Resume from "./components/Resume";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar role="navigation"/>
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<Home />} />
