@@ -37,7 +37,7 @@ function Home() {
         </div>
       </div>
       <div className="about-me" data-aos="fade">
-        <h1 id="heading">The Prologue 🙋‍♂️</h1>
+        <h1 className="heading">The Prologue 🙋‍♂️</h1>
         <p>
           I'm Soham, a frontend web developer and self-taught user interface &
           experience (UI/UX) designer. <br />
@@ -48,17 +48,17 @@ function Home() {
         </p>
       </div>
       <div className="skills-block" data-aos="fade">
-        <h1 id="heading">Superpowers 💻</h1>
+        <h1 className="heading">Superpowers 💻</h1>
         <Skills />
       </div>
       <div className="experience-block" data-aos="fade">
-        <h1 id="heading">
+        <h1 className="heading">
           Adventures ⚒️<span>looking for more :)</span>
         </h1>
         <Experience />
       </div>
       <div className="education-block" data-aos="fade">
-        <h1 id="heading">Enlightenment 🎓</h1>
+        <h1 className="heading">Enlightenment 🎓</h1>
         <Education />
       </div>
     </div>
