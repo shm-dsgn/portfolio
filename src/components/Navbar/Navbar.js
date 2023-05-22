@@ -21,6 +21,8 @@ function Navbar() {
   const navLinkStyles = ({ isActive }) => {
     return {
       color: isActive ? "#E2FF00" : "white",
+      textDecoration: isActive? "underline" :"none",
+      fontWeight: isActive? "bold" :"normal",
     };
   };
   return (

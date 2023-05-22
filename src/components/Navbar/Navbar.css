@@ -3,10 +3,11 @@
 .navbar {
   font-family: Regular;
   top: 0;
-  background-color: #181818;
+  background-color: #181818c8;
   position:sticky;
   padding: 24px 16px;
   z-index: 1000;
+  backdrop-filter: blur(5px);
 }
 
 .navbar-block {
@@ -54,6 +55,11 @@ nav a {
 }
 
 @media (max-width: 800px) {
+
+  .navbar {
+    backdrop-filter: none;
+    background-color: #181818;
+  }
   .menu-icon {
     display: block;
     cursor: pointer;
