@@ -4,7 +4,7 @@ import { DribbbleLogo } from "@phosphor-icons/react";
 
 const Display = ({ title, content, dribbbleLink, photo, tags }) => {
   return (
-    <div className="display-box" data-aos="fade">
+    <div className="display-box">
       <div className="display-image">
         <img src={photo} className="img" alt="designImage" />
       </div>
