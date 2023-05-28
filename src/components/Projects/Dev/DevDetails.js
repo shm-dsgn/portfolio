@@ -32,8 +32,8 @@ export const DevDetails = [
     title: "My Portfolio Website",
     content:
       "My portfolio website to showcase my experience, works and skills.",
-    githubLink: "",
-    liveLink: "",
+    githubLink: "https://github.com/shm-dsgn/portfolio",
+    liveLink: "https://shm-dsgn.me/",
     photo: Img3,
     tags: ["reactjs", "react-router"],
   },
