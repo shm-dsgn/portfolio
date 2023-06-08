@@ -47,7 +47,7 @@
 }
 
 .hero-text {
-  padding: 64px 64px 32px 64px;
+  padding: 64px 64px 32px;
   font-size: 108px;
   color: white;
   font-family: Ultrabold;
@@ -118,7 +118,6 @@
 
 @media (max-width: 800px) {
   .hero-text {
-    margin-top: 16px;
     font-size: 52px;
     padding: 16px;
     margin: 16px;

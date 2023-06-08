@@ -50,7 +50,6 @@ code {
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
   width: 7px;
-  width: 7px;
 }
 *::-webkit-scrollbar-track {
   border-radius: 20px;
