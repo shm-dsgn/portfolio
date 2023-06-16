@@ -16,18 +16,18 @@ function Contact() {
             </p>
             <p className="email">
               <a
-                href="mailto:sohamdutta2001@gmail.com"
+                href="mailto:mail@shm-dsgn.me"
                 target="_blank"
                 rel="noreferrer"
               >
-                sohamdutta2001@gmail.com
+                mail@shm-dsgn.me
               </a>
             </p>
           </div>
           <div className="social-details">
             <div className="contact-me-block">
               <a
-                href="mailto:sohamdutta2001@gmail.com"
+                href="mailto:mail@shm-dsgn.me"
                 target="_blank"
                 rel="noreferrer"
               >
