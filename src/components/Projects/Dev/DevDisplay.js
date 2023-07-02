@@ -1,11 +1,12 @@
 import React from "react";
 import "./DevDisplay.css";
+import { GithubLogo, Globe } from "@phosphor-icons/react";
 
 const Display = ({ title, content, githubLink, liveLink, photo, tags }) => {
   return (
     <div className="display-box">
       <div className="display-image">
-        <img src={photo} className="img" alt="projectImage"/>
+        <img src={photo} className="img" alt="projectImage" />
       </div>
       <div className="tags">
         {tags.map((tag) => (
@@ -17,14 +18,13 @@ const Display = ({ title, content, githubLink, liveLink, photo, tags }) => {
         <div className="display-content">{content}</div>
         <div className="display-links">
           <a href={githubLink} target="_blank" rel="noreferrer">
-            <button className="display-github">GitHub</button>
+            <GithubLogo size={28} color="#ffffff" weight="fill" />
           </a>
           <a href={liveLink} target="_blank" rel="noreferrer">
-            <button className="display-live">View Live</button>
+            <Globe size={28} color="#E2FF00" weight="fill" />
           </a>
         </div>
       </div>
-      
     </div>
   );
 };

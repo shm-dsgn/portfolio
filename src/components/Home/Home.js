@@ -26,7 +26,7 @@ function Home() {
             Hi, I'm <span className="name">Soham Dutta</span>, a
             <span className="role">
               {" "}
-              Frontend Developer and UI/UX designer{" "}
+              MERN Stack Developer and UI/UX designer{" "}
             </span>
             based in <span className="location">Kolkata, IN</span>.
           </p>
@@ -39,10 +39,10 @@ function Home() {
       <div className="about-me" data-aos="fade">
         <h1 className="heading">The Prologue 🙋‍♂️</h1>
         <p>
-          I'm Soham, a frontend web developer and self-taught user interface &
+          I'm Soham, a full-stack web developer and self-taught user interface &
           experience (UI/UX) designer. <br />
           <br />
-          I specialize in HTML, CSS, JavaScript, and frontend frameworks like ReactJS. I am also interested towards AI, Machine learning and Deep Learning.<br />
+          I specialize in HTML, CSS, JavaScript, and frontend frameworks like ReactJS. I am currently learning MERN Stack and doing full stack projects.<br />
           <br />I thrive on finding innovative solutions and bringing ideas to
           life.
         </p>
@@ -61,6 +61,7 @@ function Home() {
         <h1 className="heading">Enlightenment 🎓</h1>
         <Education />
       </div>
+      <footer>shm-dsgn&copy; 2023</footer>
     </div>
   );
 }

@@ -7,7 +7,7 @@ export const EduDetails = [
     location:"Bhubaneswar, Odisha",
     degree: "B.Tech in Computer Science & Engineering",
     time: "2020 - 2024 (currently pursuing)",
-    score: "CGPA: 9.4/10 (upto 5th semester)",
+    score: "CGPA: 9.34/10 (upto 6th semester)",
   },
   // {
   //   icon: <Backpack color="white" size={32}/>,

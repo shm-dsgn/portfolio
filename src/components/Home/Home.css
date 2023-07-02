@@ -116,6 +116,15 @@
   opacity: 1;
 } */
 
+footer {
+  font-family: Regular;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
 @media (max-width: 800px) {
   .hero-text {
     font-size: 52px;

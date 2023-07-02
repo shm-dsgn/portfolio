@@ -10,6 +10,7 @@ function Skills() {
     "CSS",
     "JavaScript",
     "ES6",
+    "TypeScript",
     "SQL",
     "Bash",
     "Markdown",
@@ -18,6 +19,7 @@ function Skills() {
   const frameworksAndTools = [
     "React JS",
     "React Router",
+    "MongoDB",
     "Tailwind CSS",
     "FireBase",
     "Node.js",

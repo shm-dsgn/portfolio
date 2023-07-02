@@ -1,8 +1,30 @@
 import Img1 from "../../../assets/bg.png";
 import Img2 from "../../../assets/ytpd.png";
 import Img3 from "../../../assets/pt.png";
+import Img4 from "../../../assets/ba.png";
 
 export const DevDetails = [
+  {
+    title: "Blog App",
+    content:
+      "A simple blog app that lets users create blog posts with images, view them, edit them and delete them (MERN Stack)",
+    githubLink: "https://github.com/shm-dsgn/blogApp",
+    liveLink: "https://shm-blog-app.onrender.com/",
+    photo: Img4,
+    tags: [
+      "mongodb",
+      "expressjs",
+      "reactjs",
+      "nodejs",
+      "react-router",
+      "aws-s3",
+      "multer",
+      "jwt",
+      "bcrypt",
+      "react-quill",
+      "tailwindcss",
+    ],
+  },
   {
     title: "Brain Games",
     content:
