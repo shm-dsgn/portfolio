@@ -1,5 +1,13 @@
 export const ExpDetails = [
     {
+        title:"Student Trainee",
+        exptype:"Internship",
+        name:"Nokia Solutions Networks",
+        location:"Bangalore, India",
+        duration:"Aug 2023 - present",
+        description:"Learning about Java, Spring, Spring Boot, MySQL, Thymeleaf and Polymer and how to make full stack applications using them.",
+    },
+    {
         title:"Project Wing Member & Learner",
         exptype:"Part-Time",
         name:"Microsoft Learn Student Ambassador",

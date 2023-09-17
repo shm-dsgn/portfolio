@@ -5,6 +5,7 @@ function Skills() {
   const languages = [
     "C++",
     "C",
+    "Java",
     "Python",
     "HTML",
     "CSS",
@@ -17,6 +18,11 @@ function Skills() {
   ];
 
   const frameworksAndTools = [
+    "Spring Boot",
+    "Spring MVC",
+    "Thymeleaf",
+    "Polymer",
+    "Bootstrap",
     "React JS",
     "React Router",
     "MongoDB",
@@ -29,6 +35,7 @@ function Skills() {
     "Git",
     "Jupyter Notebook",
     "Visual Studio Code",
+    "Eclipse",
   ];  
   
   const others = [
